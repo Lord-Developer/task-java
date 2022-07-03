@@ -21,7 +21,7 @@ public class Task1 {
 
         int n = mat.length;
         // matritsiyani markazi
-        int cI = n / 2, cJ = n / 2;
+        int indI = n / 2, indJ = n / 2;
 
         // 1 ni pozitsiyasini topish
         int oneI = 0, oneJ = 0;
@@ -34,6 +34,6 @@ public class Task1 {
                 }
             }
         }
-        return (Math.abs(cI - oneI) + Math.abs(cJ - oneJ));
+        return (Math.abs(indI - oneI) + Math.abs(indJ - oneJ));
     }
 }
